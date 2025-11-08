@@ -12,7 +12,6 @@ const Display = () => {
             const data = response.data || [];
             setItems(data);
             if (data?.[0]?.number && data[0].number !== lastSpoken.current) {
-                console.log('Speaking', data[0].number);
                 speak(`Nomor antrian ${spell(data[0].number)} dipersilakan ke loket.`);
                 lastSpoken.current = data[0].number;
             }
