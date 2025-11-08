@@ -8,6 +8,8 @@ Sistem antrian digital dengan **dua jenis antrian**:
 Algoritma pemanggilan mengikuti aturan **2 Reservasi : 1 Walk-in**, dengan prioritas dinamis.
 Backend menggunakan **Laravel**, Frontend menggunakan **React + Vite**, dan database **MySQL** (opsional via Docker).
 
+video demo : https://drive.google.com/file/d/10oIt2_82TYfJEDrncZ78tLOo_kfYLttZ/view?usp=sharing
+
 ---
 
 ## ✨ Fitur
